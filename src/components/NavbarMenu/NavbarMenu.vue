@@ -43,7 +43,7 @@ export default {
                     <img style="width: 25px; margin: 0 10px;" src="/email.svg" alt="email">
                 </li>
                 <li class="d-flex align-items-center">
-                    <a href="/in-progress"><router-link to="/in-progress">Homiylik</router-link></a>
+                    <a href="/news"><router-link to="/news">Yangiliklar</router-link></a>
                     <img style="width: 25px; margin: 0 10px;" src="/cooperate.svg" alt="email">
                 </li>
             </ul>
@@ -76,13 +76,13 @@ export default {
     width: 35px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
     .bars {
         display: none;
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1000px) {
     .listing {
         justify-content: space-around;
         width: 100%;

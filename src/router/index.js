@@ -10,6 +10,8 @@ import Admin from '../components/ADMIN/AdminApp.vue'
 import NotFoundPageVue from '../components/NotFoundPage.vue'
 import orderactive from '../components/OrderActive/OrderActive.vue'
 import prices from '../components/PricingPage/Pricing.vue'
+import News from '../components/News/News.vue'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -67,6 +69,11 @@ const router = createRouter({
       path: '/prices',
       name: 'prices',
       component: prices
+    },
+    {
+      path: '/news',
+      name: 'news',
+      component: News
     }
   ]
 });
